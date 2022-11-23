@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/resistancegraph_screen/ResistanceGraphPresenter.hpp:28:13:ResistanceGraphPresenter::~ResistanceGraphPresenter()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/resistancegraph_screen/ResistanceGraphPresenter.cpp:10:6:virtual void ResistanceGraphPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/resistancegraph_screen/ResistanceGraphPresenter.hpp:28:13:virtual ResistanceGraphPresenter::~ResistanceGraphPresenter()	8	static
+../../TouchGFX/gui/include/gui/resistancegraph_screen/ResistanceGraphPresenter.hpp:28:13:virtual void* ResistanceGraphPresenter::_ZThn4_N24ResistanceGraphPresenterD1Ev()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/resistancegraph_screen/ResistanceGraphPresenter.cpp:4:1:ResistanceGraphPresenter::ResistanceGraphPresenter(ResistanceGraphView&)	8	static

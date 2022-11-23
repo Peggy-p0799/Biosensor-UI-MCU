@@ -1,0 +1,9 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/knownpage_screen/KnownPageViewBase.hpp:25:18:virtual void KnownPageViewBase::PowerOff()	0	static
+../../TouchGFX/gui/include/gui/knownpage_screen/KnownPageView.hpp:11:13:KnownPageView::~KnownPageView()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/knownpage_screen/KnownPageView.cpp:13:6:virtual void KnownPageView::tearDownScreen()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/knownpage_screen/KnownPageView.cpp:8:6:virtual void KnownPageView::setupScreen()	0	static
+../../TouchGFX/gui/include/gui/knownpage_screen/KnownPageView.hpp:11:13:virtual KnownPageView::~KnownPageView()	8	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/knownpage_screen/KnownPageView.cpp:3:1:KnownPageView::KnownPageView()	8	static

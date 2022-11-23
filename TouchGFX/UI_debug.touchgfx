@@ -1,0 +1,1207 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "StartPage",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 14,
+            "Y": 59,
+            "Width": 232,
+            "Height": 49,
+            "TextId": "__SingleUse_DZRR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 4,
+              "Green": 130,
+              "Blue": 175
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 71,
+            "Y": 108,
+            "Width": 238,
+            "Height": 14,
+            "TextId": "__SingleUse_IDTO",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 90,
+              "Blue": 120
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "HomeButton",
+            "X": 130,
+            "Y": 165,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Home_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Home_32.png",
+            "IconX": 15,
+            "IconY": 16,
+            "IconHeight": 29,
+            "IconWidth": 30,
+            "ButtonStyle": "Style5",
+            "IconStyle": "Icon27"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "HomeButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "InstructionPage1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "InstructionPage1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 28,
+            "Y": 27,
+            "Width": 96,
+            "Height": 23,
+            "TextId": "__SingleUse_SS71",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "X": 28,
+            "Y": 58,
+            "Width": 264,
+            "Height": 112,
+            "BorderColor": {
+              "Green": 135,
+              "Blue": 189
+            },
+            "BorderSize": 5
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "I_nextbutton1",
+            "X": 130,
+            "Y": 180,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Down_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Down_arrow_32.png",
+            "IconX": 15,
+            "IconY": 22,
+            "IconHeight": 17,
+            "IconWidth": 30,
+            "ButtonStyle": "Style5",
+            "IconStyle": "Icon13"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "I_nextbutton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "InstructionPage2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "InstructionPage2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "I_lastbutton",
+            "X": 63,
+            "Y": 180,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Up_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Up_arrow_32.png",
+            "IconX": 15,
+            "IconY": 22,
+            "IconHeight": 17,
+            "IconWidth": 30,
+            "ButtonStyle": "Style5",
+            "IconStyle": "Icon67"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 28,
+            "Y": 27,
+            "Width": 96,
+            "Height": 23,
+            "TextId": "__SingleUse_6D9D",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "X": 28,
+            "Y": 58,
+            "Width": 264,
+            "Height": 112,
+            "BorderColor": {
+              "Green": 135,
+              "Blue": 189
+            },
+            "BorderSize": 5
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "I_nextbutton2",
+            "X": 196,
+            "Y": 180,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Down_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Down_arrow_32.png",
+            "IconX": 15,
+            "IconY": 22,
+            "IconHeight": 17,
+            "IconWidth": 30,
+            "ButtonStyle": "Style5",
+            "IconStyle": "Icon13"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "I_nextbutton2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "InstructionPage1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "I_lastbutton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "KnownPage"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "KnownPage",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "AgreeButton",
+            "X": 75,
+            "Y": 90,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "AgreeButton",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "RefuseButton",
+            "X": 75,
+            "Y": 150,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Dark_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Dark_Buttons_Round_Edge_small.png",
+            "TextId": "RefuseButton",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Note1",
+            "X": 14,
+            "Y": 45,
+            "Width": 293,
+            "Height": 14,
+            "TextId": "__SingleUse_X1OM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Note2",
+            "X": 7,
+            "Y": 59,
+            "Width": 307,
+            "Height": 14,
+            "TextId": "__SingleUse_XN3R",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "AgreeButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "PIPage"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "RefuseButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "PowerOff"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PIPage",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 28,
+            "Y": 27,
+            "Width": 184,
+            "Height": 23,
+            "TextId": "__SingleUse_P62M",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "NextButton2",
+            "X": 130,
+            "Y": 180,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Down_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Down_arrow_32.png",
+            "IconX": 15,
+            "IconY": 22,
+            "IconHeight": 17,
+            "IconWidth": 30,
+            "ButtonStyle": "Style5",
+            "IconStyle": "Icon13"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "NextButton2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "StartMeasurement"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "StartMeasurement",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "X": 96,
+            "Y": 82,
+            "Width": 128,
+            "Height": 38,
+            "Pressed": "__designer\\Dark_Togglebars_Toggle_round_large_button_On.png",
+            "Released": "__designer\\Dark_Togglebars_Toggle_round_large_button_Off.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 58,
+            "Y": 134,
+            "Width": 218,
+            "Height": 23,
+            "TextId": "__SingleUse_U9NT",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "StartMeasurement"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "Interaction1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "ProgressBar"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ProgressBar",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "CircleProgress",
+            "Name": "circleProgress1",
+            "X": 18,
+            "Y": 68,
+            "Width": 104,
+            "Height": 104,
+            "FileNameProgress": "__designer\\Blue_ProgressIndicators_fill_medium_circle_indicator_fill_full.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 52,
+            "CenterY": 52,
+            "Radius": 50,
+            "EndAngle": 360,
+            "CapPrecision": "Butt",
+            "Style": "Style5",
+            "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_medium_circle_indicator_bg_full.png",
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 60
+          },
+          {
+            "Type": "TextProgress",
+            "Name": "textProgress1",
+            "X": 28,
+            "Y": 107,
+            "Width": 84,
+            "Height": 26,
+            "TextId": "__SingleUse_KOIW",
+            "Style": "Style3",
+            "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_medium_text_progress_bg_square.png",
+            "IndicatorPositionWidth": 84,
+            "IndicatorPositionHeight": 34,
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 130,
+            "Y": 88,
+            "Width": 182,
+            "Height": 23,
+            "TextId": "__SingleUse_I9XH",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "DataDisplayList"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "DataDisplayList",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "ReactanceGraph",
+            "X": 51,
+            "Y": 105,
+            "Width": 230,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_medium_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_medium.png",
+            "TextId": "__SingleUse_8ABT",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style7"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "ResistanceGraph",
+            "X": 51,
+            "Y": 36,
+            "Width": 230,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_medium_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_medium.png",
+            "TextId": "__SingleUse_S185",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style7"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "SaveData",
+            "X": 51,
+            "Y": 172,
+            "Width": 230,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_medium_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_medium.png",
+            "TextId": "__SingleUse_C942",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style7"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ResistanceGraph"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "ResistanceGraph"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ReactanceGraph"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "ReactanceGraph"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SaveData"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "DataSaved"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ResistanceGraph",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "StaticGraph",
+            "Name": "ResistanceGraph",
+            "X": 13,
+            "Y": 12,
+            "Width": 295,
+            "Height": 173,
+            "DataSeed": 411231767,
+            "NumberOfValues": 26,
+            "MaxX": 32.0,
+            "PrecisionX": "1",
+            "MaxY": 250.0,
+            "MinY": -50.0,
+            "PrecisionY": "0.001",
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "LabelSizeTop": 20,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 40,
+            "LabelSizeRight": 10,
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 3,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Interval": 4.0,
+              "LineWidth": 1
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Interval": 25.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 5.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Green": 26,
+                "Blue": 54
+              },
+              "TextId": "__SingleUse_LK75",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 25.0,
+              "NumberOfDecimals": 3,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Green": 26,
+                "Blue": 54
+              },
+              "TextId": "__SingleUse_H6LK",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "ReturnToList",
+            "X": 130,
+            "Y": 180,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Up_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Up_arrow_32.png",
+            "IconX": 15,
+            "IconY": 22,
+            "IconHeight": 17,
+            "IconWidth": 30,
+            "ButtonStyle": "Style5",
+            "IconStyle": "Icon67"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 243,
+            "Y": 185,
+            "Width": 65,
+            "Height": 11,
+            "TextId": "__SingleUse_4YA4",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 13,
+            "Y": 12,
+            "Width": 108,
+            "Height": 11,
+            "TextId": "__SingleUse_1X8L",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ReturnToList"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "DataDisplayList"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "PlotResistance"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ReactanceGraph",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "ReturnToList2",
+            "X": 130,
+            "Y": 180,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Up_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Up_arrow_32.png",
+            "IconX": 15,
+            "IconY": 22,
+            "IconHeight": 17,
+            "IconWidth": 30,
+            "ButtonStyle": "Style5",
+            "IconStyle": "Icon67"
+          },
+          {
+            "Type": "StaticGraph",
+            "Name": "ReactanceGraph",
+            "X": 13,
+            "Y": 12,
+            "Width": 295,
+            "Height": 173,
+            "DataSeed": 411231767,
+            "NumberOfValues": 26,
+            "MaxX": 32.0,
+            "PrecisionX": "1",
+            "MaxY": 250.0,
+            "MinY": -50.0,
+            "PrecisionY": "0.001",
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "LabelSizeTop": 20,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 40,
+            "LabelSizeRight": 10,
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 3,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Interval": 4.0,
+              "LineWidth": 1
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Interval": 25.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 5.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Green": 26,
+                "Blue": 54
+              },
+              "TextId": "__SingleUse_R7AX",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 25.0,
+              "NumberOfDecimals": 3,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Green": 26,
+                "Blue": 54
+              },
+              "TextId": "__SingleUse_J48K",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 243,
+            "Y": 185,
+            "Width": 65,
+            "Height": 11,
+            "TextId": "__SingleUse_W9FP",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 13,
+            "Y": 12,
+            "Width": 105,
+            "Height": 11,
+            "TextId": "__SingleUse_9KIH",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ReturnToList2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "DataDisplayList"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "PlotReactance"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "DataSaved",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "X": 69,
+            "Y": 76,
+            "Width": 44,
+            "Height": 44,
+            "RelativeFilename": "__designer\\Blue_Check_buttons_Check_Round_mark_active.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 124,
+            "Y": 91,
+            "Width": 163,
+            "Height": 14,
+            "TextId": "__SingleUse_EBKP",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "NextButton4",
+            "X": 130,
+            "Y": 180,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Down_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Down_arrow_32.png",
+            "IconX": 15,
+            "IconY": 22,
+            "IconHeight": 17,
+            "IconWidth": 30,
+            "ButtonStyle": "Style5",
+            "IconStyle": "Icon13"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "NextButton4"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionBlock",
+              "ActionComponent": "FinishPage"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "FinishPage",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_texture_320x240px.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "ReturnToDataList",
+            "X": 45,
+            "Y": 42,
+            "Width": 230,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_medium_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_medium.png",
+            "TextId": "__SingleUse_5J4F",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style7"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "StartNewMeas",
+            "X": 45,
+            "Y": 102,
+            "Width": 230,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_medium_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_medium.png",
+            "TextId": "__SingleUse_EWPU",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style7"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "TurnOff",
+            "X": 45,
+            "Y": 162,
+            "Width": 230,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_medium_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_medium.png",
+            "TextId": "__SingleUse_EVL3",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style7"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ReturnToDataList"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "DataDisplayList"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "StartNewMeas"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "InstructionPage1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TurnOff"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "PowerOff"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "UI_debug",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "StartPage",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I-DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.19.1",
+  "CreatedBy": "4.19.1"
+}

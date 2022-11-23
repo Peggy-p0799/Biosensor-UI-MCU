@@ -1,0 +1,2 @@
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/generated/images/src/BitmapDatabase.cpp:49:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/generated/images/src/BitmapDatabase.cpp:54:10:uint16_t BitmapDatabase::getInstanceSize()	0	static

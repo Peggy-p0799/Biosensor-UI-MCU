@@ -1,0 +1,6 @@
+../../TouchGFX/gui/include/gui/datasaved_screen/DataSavedPresenter.hpp:28:13:DataSavedPresenter::~DataSavedPresenter()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datasaved_screen/DataSavedPresenter.cpp:10:6:virtual void DataSavedPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/datasaved_screen/DataSavedPresenter.hpp:28:13:virtual DataSavedPresenter::~DataSavedPresenter()	8	static
+../../TouchGFX/gui/include/gui/datasaved_screen/DataSavedPresenter.hpp:28:13:virtual void* DataSavedPresenter::_ZThn4_N18DataSavedPresenterD1Ev()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datasaved_screen/DataSavedPresenter.cpp:4:1:DataSavedPresenter::DataSavedPresenter(DataSavedView&)	8	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datasaved_screen/DataSavedPresenter.cpp:20:6:void DataSavedPresenter::DSendPresenter()	0	static

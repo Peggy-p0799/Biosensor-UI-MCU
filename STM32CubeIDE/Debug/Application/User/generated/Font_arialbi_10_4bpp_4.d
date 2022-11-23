@@ -1,0 +1,6 @@
+Application/User/generated/Font_arialbi_10_4bpp_4.o: \
+ C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/generated/fonts/src/Font_arialbi_10_4bpp_4.cpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp:
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp:

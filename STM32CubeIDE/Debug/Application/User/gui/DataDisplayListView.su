@@ -1,0 +1,8 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../TouchGFX/gui/include/gui/datadisplaylist_screen/DataDisplayListView.hpp:11:13:DataDisplayListView::~DataDisplayListView()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datadisplaylist_screen/DataDisplayListView.cpp:14:6:virtual void DataDisplayListView::tearDownScreen()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datadisplaylist_screen/DataDisplayListView.cpp:9:6:virtual void DataDisplayListView::setupScreen()	0	static
+../../TouchGFX/gui/include/gui/datadisplaylist_screen/DataDisplayListView.hpp:11:13:virtual DataDisplayListView::~DataDisplayListView()	8	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datadisplaylist_screen/DataDisplayListView.cpp:4:1:DataDisplayListView::DataDisplayListView()	8	static

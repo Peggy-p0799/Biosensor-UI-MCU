@@ -1,0 +1,8 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../TouchGFX/gui/include/gui/startpage_screen/StartPageView.hpp:11:13:StartPageView::~StartPageView()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/startpage_screen/StartPageView.cpp:13:6:virtual void StartPageView::tearDownScreen()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/startpage_screen/StartPageView.cpp:8:6:virtual void StartPageView::setupScreen()	0	static
+../../TouchGFX/gui/include/gui/startpage_screen/StartPageView.hpp:11:13:virtual StartPageView::~StartPageView()	8	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/startpage_screen/StartPageView.cpp:3:1:StartPageView::StartPageView()	8	static

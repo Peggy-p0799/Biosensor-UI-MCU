@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/reactancegraph_screen/ReactanceGraphPresenter.hpp:28:13:ReactanceGraphPresenter::~ReactanceGraphPresenter()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/reactancegraph_screen/ReactanceGraphPresenter.cpp:10:6:virtual void ReactanceGraphPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/reactancegraph_screen/ReactanceGraphPresenter.hpp:28:13:virtual ReactanceGraphPresenter::~ReactanceGraphPresenter()	8	static
+../../TouchGFX/gui/include/gui/reactancegraph_screen/ReactanceGraphPresenter.hpp:28:13:virtual void* ReactanceGraphPresenter::_ZThn4_N23ReactanceGraphPresenterD1Ev()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/reactancegraph_screen/ReactanceGraphPresenter.cpp:4:1:ReactanceGraphPresenter::ReactanceGraphPresenter(ReactanceGraphView&)	8	static

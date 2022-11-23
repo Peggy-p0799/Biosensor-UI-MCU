@@ -1,0 +1,9 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../TouchGFX/gui/include/gui/reactancegraph_screen/ReactanceGraphView.hpp:11:13:ReactanceGraphView::~ReactanceGraphView()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/reactancegraph_screen/ReactanceGraphView.cpp:13:6:virtual void ReactanceGraphView::tearDownScreen()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/reactancegraph_screen/ReactanceGraphView.cpp:8:6:virtual void ReactanceGraphView::setupScreen()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/reactancegraph_screen/ReactanceGraphView.cpp:21:6:virtual void ReactanceGraphView::PlotReactance()	32	static
+../../TouchGFX/gui/include/gui/reactancegraph_screen/ReactanceGraphView.hpp:11:13:virtual ReactanceGraphView::~ReactanceGraphView()	8	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/reactancegraph_screen/ReactanceGraphView.cpp:3:1:ReactanceGraphView::ReactanceGraphView()	8	static

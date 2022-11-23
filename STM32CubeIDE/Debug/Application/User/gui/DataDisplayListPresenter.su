@@ -1,0 +1,6 @@
+../../TouchGFX/gui/include/gui/datadisplaylist_screen/DataDisplayListPresenter.hpp:28:13:DataDisplayListPresenter::~DataDisplayListPresenter()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datadisplaylist_screen/DataDisplayListPresenter.cpp:10:6:virtual void DataDisplayListPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/datadisplaylist_screen/DataDisplayListPresenter.hpp:28:13:virtual DataDisplayListPresenter::~DataDisplayListPresenter()	8	static
+../../TouchGFX/gui/include/gui/datadisplaylist_screen/DataDisplayListPresenter.hpp:28:13:virtual void* DataDisplayListPresenter::_ZThn4_N24DataDisplayListPresenterD1Ev()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datadisplaylist_screen/DataDisplayListPresenter.cpp:4:1:DataDisplayListPresenter::DataDisplayListPresenter(DataDisplayListView&)	8	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datadisplaylist_screen/DataDisplayListPresenter.cpp:20:6:void DataDisplayListPresenter::SaveAllPresenter()	0	static

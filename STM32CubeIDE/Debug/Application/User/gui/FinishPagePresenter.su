@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/finishpage_screen/FinishPagePresenter.hpp:28:13:FinishPagePresenter::~FinishPagePresenter()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/finishpage_screen/FinishPagePresenter.cpp:10:6:virtual void FinishPagePresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/finishpage_screen/FinishPagePresenter.hpp:28:13:virtual FinishPagePresenter::~FinishPagePresenter()	8	static
+../../TouchGFX/gui/include/gui/finishpage_screen/FinishPagePresenter.hpp:28:13:virtual void* FinishPagePresenter::_ZThn4_N19FinishPagePresenterD1Ev()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/finishpage_screen/FinishPagePresenter.cpp:4:1:FinishPagePresenter::FinishPagePresenter(FinishPageView&)	8	static

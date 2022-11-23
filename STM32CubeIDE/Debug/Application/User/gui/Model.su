@@ -1,0 +1,6 @@
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/model/Model.cpp:24:2:Model::Model()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/model/Model.cpp:29:6:void Model::tick()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/model/Model.cpp:34:6:void Model::Callmeasurement()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/model/Model.cpp:40:6:void Model::ProgressCheck()	8	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/model/Model.cpp:46:6:void Model::DataSaveStart()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/model/Model.cpp:49:6:void Model::DataSaveEnd()	0	static

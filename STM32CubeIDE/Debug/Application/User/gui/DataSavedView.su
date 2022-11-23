@@ -1,0 +1,8 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../TouchGFX/gui/include/gui/datasaved_screen/DataSavedView.hpp:11:13:DataSavedView::~DataSavedView()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datasaved_screen/DataSavedView.cpp:13:6:virtual void DataSavedView::tearDownScreen()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datasaved_screen/DataSavedView.cpp:8:6:virtual void DataSavedView::setupScreen()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datasaved_screen/DataSavedView.cpp:19:6:virtual void DataSavedView::handleTickEvent()	0	static
+../../TouchGFX/gui/include/gui/datasaved_screen/DataSavedView.hpp:11:13:virtual DataSavedView::~DataSavedView()	8	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/datasaved_screen/DataSavedView.cpp:3:1:DataSavedView::DataSavedView()	8	static

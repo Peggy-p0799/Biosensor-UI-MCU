@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.19.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_9KIH" Alignment="Left" TypographyId="Highlight">
+        <Translation Language="GB">Reactance Pa.L−1.s−1</Translation>
+      </Text>
+      <Text Id="__SingleUse_W9FP" Alignment="Left" TypographyId="Highlight">
+        <Translation Language="GB">Frequency/Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_J48K" Alignment="Left" TypographyId="graphAxis">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_R7AX" Alignment="Left" TypographyId="graphAxis">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_1X8L" Alignment="Left" TypographyId="Highlight">
+        <Translation Language="GB">Resistance Pa.L−1.s−1</Translation>
+      </Text>
+      <Text Id="__SingleUse_4YA4" Alignment="Left" TypographyId="Highlight">
+        <Translation Language="GB">Frequency/Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_LK75" Alignment="Center" TypographyId="graphAxis">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_XN3R" Alignment="Left" TypographyId="Subtitle">
+        <Translation Language="GB">I accept all risks and consequency of my personal misoperation.</Translation>
+      </Text>
+      <Text Id="__SingleUse_X1OM" Alignment="Left" TypographyId="Subtitle">
+        <Translation Language="GB">* I have read and be aware of all instructions provided above</Translation>
+      </Text>
+      <Text Id="__SingleUse_EVL3" Alignment="Center" TypographyId="choiceBar">
+        <Translation Language="GB">Turn Off Device</Translation>
+      </Text>
+      <Text Id="__SingleUse_EWPU" Alignment="Center" TypographyId="choiceBar">
+        <Translation Language="GB">Start A New Measurement</Translation>
+      </Text>
+      <Text Id="__SingleUse_5J4F" Alignment="Center" TypographyId="choiceBar">
+        <Translation Language="GB">Return To Graph List</Translation>
+      </Text>
+      <Text Id="__SingleUse_EBKP" Alignment="Left" TypographyId="Subtitle">
+        <Translation Language="GB">Data has been successfully saved!</Translation>
+      </Text>
+      <Text Id="__SingleUse_H6LK" Alignment="Center" TypographyId="graphAxis">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_C942" Alignment="Center" TypographyId="choiceBar">
+        <Translation Language="GB">Save all data</Translation>
+      </Text>
+      <Text Id="__SingleUse_S185" Alignment="Center" TypographyId="choiceBar">
+        <Translation Language="GB">Check resistance Graph</Translation>
+      </Text>
+      <Text Id="__SingleUse_8ABT" Alignment="Center" TypographyId="choiceBar">
+        <Translation Language="GB">Check Reactance Graph</Translation>
+      </Text>
+      <Text Id="__SingleUse_I9XH" Alignment="Left" TypographyId="ChapterTitle">
+        <Translation Language="GB">Measuring in process</Translation>
+      </Text>
+      <Text Id="__SingleUse_KOIW" Alignment="Center" TypographyId="ChapterTitle">
+        <Translation Language="GB">&lt;&gt; %</Translation>
+      </Text>
+      <Text Id="__SingleUse_U9NT" Alignment="Left" TypographyId="ChapterTitle">
+        <Translation Language="GB">Start a new measurement</Translation>
+      </Text>
+      <Text Id="__SingleUse_P62M" Alignment="Left" TypographyId="ChapterTitle">
+        <Translation Language="GB">Personal Information</Translation>
+      </Text>
+      <Text Id="RefuseButton" Alignment="Center" TypographyId="Subtitle">
+        <Translation Language="GB">Refuse &amp; Turn off</Translation>
+      </Text>
+      <Text Id="AgreeButton" Alignment="Center" TypographyId="Subtitle">
+        <Translation Language="GB">Accept &amp; Continue</Translation>
+      </Text>
+      <Text Id="__SingleUse_6D9D" Alignment="Left" TypographyId="ChapterTitle">
+        <Translation Language="GB">Instruction</Translation>
+      </Text>
+      <Text Id="__SingleUse_SS71" Alignment="Left" TypographyId="ChapterTitle">
+        <Translation Language="GB">Instruction</Translation>
+      </Text>
+      <Text Id="__SingleUse_IDTO" Alignment="Left" TypographyId="Subtitle">
+        <Translation Language="GB">An Intelligent Respiratory Biosensing Equipment</Translation>
+      </Text>
+      <Text Id="__SingleUse_DZRR" Alignment="Left" TypographyId="TitleFlower">
+        <Translation Language="GB">Lung Companion</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="TitleFlower" Font="VLADIMIR.TTF" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Subtitle" Font="times.ttf" Size="12" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="ChapterTitle" Font="timesbd.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789." />
+    <Typography Id="choiceBar" Font="arialbd.ttf" Size="14" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="graphAxis" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" />
+    <Typography Id="Highlight" Font="arialbi.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

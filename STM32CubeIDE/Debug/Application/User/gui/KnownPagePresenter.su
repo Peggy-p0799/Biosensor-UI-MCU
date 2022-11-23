@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/knownpage_screen/KnownPagePresenter.hpp:28:13:KnownPagePresenter::~KnownPagePresenter()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/knownpage_screen/KnownPagePresenter.cpp:10:6:virtual void KnownPagePresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/knownpage_screen/KnownPagePresenter.hpp:28:13:virtual KnownPagePresenter::~KnownPagePresenter()	8	static
+../../TouchGFX/gui/include/gui/knownpage_screen/KnownPagePresenter.hpp:28:13:virtual void* KnownPagePresenter::_ZThn4_N18KnownPagePresenterD1Ev()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/knownpage_screen/KnownPagePresenter.cpp:4:1:KnownPagePresenter::KnownPagePresenter(KnownPageView&)	8	static

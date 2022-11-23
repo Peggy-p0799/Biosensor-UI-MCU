@@ -1,0 +1,6 @@
+../../TouchGFX/gui/include/gui/startmeasurement_screen/StartMeasurementPresenter.hpp:28:13:StartMeasurementPresenter::~StartMeasurementPresenter()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/startmeasurement_screen/StartMeasurementPresenter.cpp:10:6:virtual void StartMeasurementPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/startmeasurement_screen/StartMeasurementPresenter.hpp:28:13:virtual StartMeasurementPresenter::~StartMeasurementPresenter()	8	static
+../../TouchGFX/gui/include/gui/startmeasurement_screen/StartMeasurementPresenter.hpp:28:13:virtual void* StartMeasurementPresenter::_ZThn4_N25StartMeasurementPresenterD1Ev()	0	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/startmeasurement_screen/StartMeasurementPresenter.cpp:4:1:StartMeasurementPresenter::StartMeasurementPresenter(StartMeasurementView&)	8	static
+C:/Users/PP0799/STM32CubeIDE/Integration/UI_New/TouchGFX/gui/src/startmeasurement_screen/StartMeasurementPresenter.cpp:20:6:void StartMeasurementPresenter::SMpresenter()	0	static
