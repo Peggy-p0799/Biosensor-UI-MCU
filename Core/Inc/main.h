@@ -66,6 +66,8 @@ void Error_Handler(void);
 #define Psensor_GPIO_Port GPIOC
 #define Qsensor_Pin GPIO_PIN_3
 #define Qsensor_GPIO_Port GPIOC
+#define EN_HP_Pin GPIO_PIN_1
+#define EN_HP_GPIO_Port GPIOA
 #define LD3_Pin GPIO_PIN_13
 #define LD3_GPIO_Port GPIOG
 /* USER CODE BEGIN Private defines */
