@@ -1712,17 +1712,15 @@ void ImpedanceCalculator(void *argument)
 void TempControl(void *argument)
 {
   /* USER CODE BEGIN TempControl */
-
   //int ac2=0;
   /* Infinite loop */
   for(;;)
   {
 	  //if(xQueueReceive(messageQ, &ac2, 0)== pdTRUE){
-
-		HAL_ADC_Start(&hadc3);
-	    // Poll ADC1 Perihperal & TimeOut = 1mSec
-	     HAL_ADC_PollForConversion(&hadc3, 1);
-	     Temp_Vdigital=HAL_ADC_GetValue(&hadc3);
+	    HAL_ADC_Start(&hadc3);
+	  // Poll ADC1 Perihperal & TimeOut = 1mSec
+	    HAL_ADC_PollForConversion(&hadc3, 1);
+	    Temp_Vdigital=HAL_ADC_GetValue(&hadc3);
 
 	    Temp_Vanalogue=(float)Temp_Vdigital*3/4096;
 	    Temp=(Temp_Vanalogue-0.5)/0.01-16;
