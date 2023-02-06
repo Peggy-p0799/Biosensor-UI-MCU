@@ -4,4 +4,4 @@ Folder includes files as:
 - Codes for both MCU and Touch GUI of the biosensor device.(STM32CubeIDE/TouchGFX)
 - An operational video of current prototype.(OperationalVideo.mp4)
 - Two official reports of previous phases. (ProjectReport->ee4thThesis_phasex_PP.pdf)
-- One detailed Daybook.
+- One detailed Daybook.(DayBook_T1&T2.pdf)
